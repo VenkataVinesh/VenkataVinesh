@@ -28,8 +28,8 @@ I am an undergraduate Computer Science student at Mahindra University (Expected 
 - Developed model-free reinforcement learning agents (tabular Q-learning & SARSA) from scratch in Python to solve discrete GridWorld grids.
 - **Metric:** Policy weights and state value iteration convergence maps proving Bellman optimality constraints.
 
-#### 📈 [Portfolio Optimization Dashboard](https://github.com/VenkataVinesh/Portfolio-Optimization-Dashboard)
-- Programmed Markowitz mean-variance efficient portfolios and Sharpe Ratio maximization metrics using SciPy mathematical optimizers.
+#### 📈 [Veltrix: AI Trading & Portfolio Optimizer](https://github.com/VenkataVinesh/Veltrix)
+- Programmed a full-stack Next.js and FastAPI application integrating quantitative Markowitz mean-variance Sharpe ratio optimization solvers with multi-agent trading loops and WebSockets telemetry.
 
 ---
 
