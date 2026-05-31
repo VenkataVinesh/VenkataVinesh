@@ -31,9 +31,10 @@ Python-first AI/ML developer focused on Reinforcement Learning, Forecasting, Opt
 - Time series prediction models (ARIMA, SARIMA, LSTM) built to analyze trend, seasonality, and temporal dependencies in multivariate weather patterns.
 - **Stack:** Python, Pandas, Statsmodels, PyTorch, Matplotlib
 
-#### 📈 [Portfolio Optimization Dashboard](https://github.com/VenkataVinesh/Portfolio-Optimization-Dashboard)
-- Interactive web dashboard utilizing SciPy optimization solvers to construct Markowitz Efficient Frontiers and maximize risk-adjusted return weights (Sharpe Ratio).
-- **Stack:** Python, SciPy, FastAPI, React, Recharts
+#### 🦅 [Veltrix — Algorithmic Trading Dashboard & Backtester](https://github.com/VenkataVinesh/Veltrix)
+- Full-stack containerized platform built to backtest rule-based algorithmic trading strategies and compute optimal asset allocations.
+- Features technical indicator signal computations (SMA crossover, RSI), a FastAPI backend utilizing SciPy optimization solvers to maximize Sharpe ratios, and an interactive Next.js dashboard plotting expected portfolio variance and historical price series.
+- **Stack:** Python, FastAPI, Next.js, SciPy, Docker, Recharts, PostgreSQL
 
 #### 🕹️ [Reinforcement Learning Lab](https://github.com/VenkataVinesh/Reinforcement-Learning-Lab)
 - Tabular reinforcement learning agents (Q-learning & SARSA) written from scratch in Python solving pathfinding optimization on custom GridWorlds.
