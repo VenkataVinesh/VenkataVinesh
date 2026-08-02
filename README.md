@@ -1,8 +1,8 @@
 <h1 align="center">A. Venkata Vinesh Kumar Reddy</h1>
 
 <p align="center">
-  <b>Machine Learning Engineer in the making</b> — time-series forecasting, optimization & reinforcement learning.<br>
-  Python-first. PyTorch · FastAPI · React. Mathematically grounded, project-driven.
+  <b>Machine Learning Engineer</b> — time-series forecasting, optimization, and reinforcement learning.<br>
+  Python-first, mathematically grounded. I build the model <i>and</i> the service around it.
 </p>
 
 <p align="center">
@@ -11,52 +11,72 @@
   <a href="mailto:venkatvinesh46@gmail.com">Email</a>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+</p>
+
 ---
 
-I'm a Computer Science undergrad at **Mahindra University** (CGPA 7.96) targeting **ML / Deep
-Learning / LLM Engineering** roles. My work clusters around one theme: **modeling sequential,
-noisy real-world data** — forecasting it, optimizing decisions on top of it, and learning
-policies that act on it. I care about the math being right, not just the code running.
+CS undergrad at **Mahindra University** (CGPA 7.96), heading to **École Centrale de Lyon** on
+exchange, targeting **ML / Deep Learning / LLM Engineering** roles.
 
-### Tech
+My work clusters around one theme: **modelling sequential, noisy real-world data** — forecasting
+it, optimizing decisions on top of it, and learning policies that act on it. I care about the
+math being right, not just the code running — and about **not overclaiming**. If a number can't
+be traced back to real data, it doesn't ship.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+---
 
-### Selected projects
+### Selected work
 
-**[Veltrix — Algorithmic Trading & Backtesting Platform](https://github.com/VenkataVinesh/Veltrix)**
-Full-stack quant research workspace: Next.js + FastAPI, technical-signal engine (SMA/EMA/RSI/MACD),
-Monte-Carlo portfolio optimization (Sharpe maximization), VaR/CVaR risk metrics, Postgres + Redis,
-Dockerized. · *TypeScript · Python · FastAPI · PostgreSQL · Docker*
+**[Veltrix](https://github.com/VenkataVinesh/Veltrix)** — Market analytics terminal
+Auditable signal engine that exposes every indicator vote behind a BUY/SELL, with its weight.
+Forecasts are walk-forward validated, so confidence is a *measured* directional hit-rate — it
+reports ~50% when there is no edge instead of inventing certainty. Next.js on Vercel, Supabase
+Postgres with row-level security.
+`TypeScript` · `Next.js` · `Supabase` · `lightweight-charts`
 
-**[Asset Price Prediction Platform](https://github.com/VenkataVinesh/Asset-Price-Prediction-Platform)**
-End-to-end forecasting service comparing **LSTM vs ARIMA** on price series, with an on-the-fly
-feature pipeline (SMA/EMA/RSI) and a FastAPI backend feeding a React/Recharts dashboard. ·
-*Python · PyTorch · Statsmodels · FastAPI · React · Docker*
+**[Asset Price Prediction Platform](https://github.com/VenkataVinesh/Asset-Price-Prediction-Platform)** — LSTM vs ARIMA, head to head
+Puts a deep sequence model and a classical baseline on the same series so the trade-off is
+visible rather than assumed. Index-aligned windowing to prevent leakage; scaler state persisted
+with the model so inference reproduces training-time normalization.
+`PyTorch` · `Statsmodels` · `FastAPI` · `React`
 
-**[Weather Time-Series Forecasting](https://github.com/VenkataVinesh/Weather-Time-Series-Forecasting)**
-Stacked-LSTM sequence model in PyTorch for meteorological forecasting, benchmarked against
-ARIMA/SARIMA with trend/seasonality decomposition. · *Python · PyTorch · Statsmodels*
+**[Weather Time-Series Forecasting](https://github.com/VenkataVinesh/Weather-Time-Series-Forecasting)** — Sequence models on seasonal data
+Stacked 2-layer LSTM benchmarked against ARIMA/SARIMA, with trend/seasonality/residual
+decomposition. Runs on a reproducible synthetic series — no dataset download needed.
+`PyTorch` · `Statsmodels`
 
-**[Reinforcement Learning Lab](https://github.com/VenkataVinesh/Reinforcement-Learning-Lab)**
-Tabular **Q-Learning & SARSA** agents written from scratch on a custom GridWorld, with
-ε-greedy decay and convergence visualizations. · *Python · NumPy · Matplotlib*
+**[Reinforcement Learning Lab](https://github.com/VenkataVinesh/Reinforcement-Learning-Lab)** — Tabular RL from scratch
+Q-Learning and SARSA with the temporal-difference updates written by hand in NumPy on a custom
+Gym-style GridWorld. Built to understand on-policy vs off-policy properly, not to call a library.
+`NumPy` · `Matplotlib`
 
-**[Portfolio Optimization](https://github.com/VenkataVinesh/Portfolio-Optimization-Dashboard)**
-Markowitz mean-variance optimizer (Sharpe maximization, efficient frontier) implemented with
-SciPy. · *Python · SciPy · NumPy*
+**[Portfolio Optimization](https://github.com/VenkataVinesh/Portfolio-Optimization-Dashboard)** — Markowitz mean-variance
+Maximum-Sharpe weights via SciPy SLSQP under long-only constraints, tracing the efficient
+frontier from the covariance structure of returns.
+`SciPy` · `NumPy`
 
-### Beyond code
+---
 
-- **Head, Math Club, Mahindra University** (2025–26; previously Logistics Head) — ran logistics for
-  math-modeling competitions and academic events.
-- **On-Ground Operations Lead, TEDx Mahindra University** — coordinated event ops for 500+ attendees.
-- **Smart India Hackathon** — backend/API development in a 6-person team.
+### Currently building
+
+- **EU AI Act / GDPR RAG assistant** — retrieval-augmented, built around an evaluation harness
+  measuring hallucination rate and retrieval quality, with CI gating releases on those metrics.
+- **Industrial visual defect detection** — treated as a production ML service from day one:
+  MLflow tracking, drift monitoring, CI/CD.
+
+*Both genuinely in progress — no completion metrics here until there are real ones.*
+
+---
+
+<p align="center"><sub>
+Python · PyTorch · TensorFlow · Scikit-Learn · Statsmodels · NumPy/Pandas ·
+FastAPI · Next.js · TypeScript · PostgreSQL · Docker · Git
+</sub></p>
