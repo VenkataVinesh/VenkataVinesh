@@ -1,4 +1,4 @@
-<h1 align="center">A. Venkata Vinesh Kumar Reddy</h1>
+<h1 align="center">Venkata Vinesh Kumar Reddy Atluri</h1>
 
 <p align="center">
   <b>Machine Learning Engineer</b> — time-series forecasting, optimization, and reinforcement learning.<br>
