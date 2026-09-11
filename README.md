@@ -23,8 +23,9 @@
 
 ---
 
-CS undergrad at **Mahindra University** (CGPA 7.96), heading to **École Centrale de Lyon** on
-exchange, targeting **ML / Deep Learning / LLM Engineering** roles.
+CS undergrad at **Mahindra University** (CGPA 7.96), now at **École Centrale de Lyon** in Écully
+on the **Lyon Centrale Digital Lab 2026-2027** programme, looking for a six-month
+**ML / Deep Learning** internship in France from **February 2027**.
 
 My work clusters around one theme: **modelling sequential, noisy real-world data** — forecasting
 it, optimizing decisions on top of it, and learning policies that act on it. I care about the
@@ -65,14 +66,14 @@ frontier from the covariance structure of returns.
 
 ---
 
-### Currently building
+### Next up
 
-- **EU AI Act / GDPR RAG assistant** — retrieval-augmented, built around an evaluation harness
-  measuring hallucination rate and retrieval quality, with CI gating releases on those metrics.
-- **Industrial visual defect detection** — treated as a production ML service from day one:
-  MLflow tracking, drift monitoring, CI/CD.
+- **EU AI Act / GDPR RAG assistant** — retrieval over regulatory text, built around an evaluation
+  harness measuring hallucination rate and retrieval quality.
+- **Industrial visual defect detection** — anomaly detection treated as a production service, with
+  experiment tracking and drift monitoring.
 
-*Both genuinely in progress — no completion metrics here until there are real ones.*
+*Planned, not started. Repositories appear here when there is code in them.*
 
 ---
 
