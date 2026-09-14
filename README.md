@@ -7,18 +7,10 @@
 
 <p align="center">
   <a href="https://venkatavinesh.github.io/PortFolio_Build_Gem/">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/venkat-vinesh">LinkedIn</a> ·
-  <a href="mailto:venkatvinesh46@gmail.com">Email</a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <a href="https://github.com/VenkataVinesh">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/venkat-vinesh">LinkedIn</a><br>
+  <a href="mailto:venkata-vinesh-kumar-reddy.atluri@etu.ec-lyon.fr">venkata-vinesh-kumar-reddy.atluri@etu.ec-lyon.fr</a> ·
+  <a href="mailto:venkatvinesh46@gmail.com">venkatvinesh46@gmail.com</a>
 </p>
 
 ---
@@ -36,33 +28,33 @@ be traced back to real data, it doesn't ship.
 
 ### Selected work
 
-**[Veltrix](https://github.com/VenkataVinesh/Veltrix)** — Market analytics terminal
-Auditable signal engine that exposes every indicator vote behind a BUY/SELL, with its weight.
-Forecasts are walk-forward validated, so confidence is a *measured* directional hit-rate — it
-reports ~50% when there is no edge instead of inventing certainty. Next.js on Vercel, Supabase
-Postgres with row-level security.
+**[Veltrix](https://github.com/VenkataVinesh/Veltrix)** — Market Analytics and Forecasting Terminal
+An analytics terminal built so every call can be audited: each recommendation exposes the indicator
+votes and weights behind it. Forecast intervals are measured rather than tuned — GARCH(1,1) delivers
+94.75% coverage against a 95% nominal band, up from 91.67% under EWMA. Directional accuracy is
+reported at 50.2% over 1,500 walk-forward calls, which is a coin flip, and the terminal says so.
 `TypeScript` · `Next.js` · `Supabase` · `lightweight-charts`
 
 **[Asset Price Prediction Platform](https://github.com/VenkataVinesh/Asset-Price-Prediction-Platform)** — LSTM vs ARIMA, head to head
 Puts a deep sequence model and a classical baseline on the same series so the trade-off is
 visible rather than assumed. Index-aligned windowing to prevent leakage; scaler state persisted
 with the model so inference reproduces training-time normalization.
-`PyTorch` · `Statsmodels` · `FastAPI` · `React`
+`Python` · `PyTorch` · `Statsmodels` · `FastAPI` · `React`
 
 **[Weather Time-Series Forecasting](https://github.com/VenkataVinesh/Weather-Time-Series-Forecasting)** — Sequence models on seasonal data
 Stacked 2-layer LSTM benchmarked against ARIMA/SARIMA, with trend/seasonality/residual
 decomposition. Runs on a reproducible synthetic series — no dataset download needed.
-`PyTorch` · `Statsmodels`
+`Python` · `PyTorch` · `Statsmodels` · `Matplotlib`
 
 **[Reinforcement Learning Lab](https://github.com/VenkataVinesh/Reinforcement-Learning-Lab)** — Tabular RL from scratch
 Q-Learning and SARSA with the temporal-difference updates written by hand in NumPy on a custom
 Gym-style GridWorld. Built to understand on-policy vs off-policy properly, not to call a library.
-`NumPy` · `Matplotlib`
+`Python` · `NumPy` · `Matplotlib`
 
 **[Portfolio Optimization](https://github.com/VenkataVinesh/Portfolio-Optimization-Dashboard)** — Markowitz mean-variance
 Maximum-Sharpe weights via SciPy SLSQP under long-only constraints, tracing the efficient
 frontier from the covariance structure of returns.
-`SciPy` · `NumPy`
+`Python` · `SciPy` · `NumPy` · `Matplotlib`
 
 ---
 
