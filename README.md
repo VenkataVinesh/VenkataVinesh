@@ -1,7 +1,7 @@
 <h1 align="center">Venkata Vinesh Kumar Reddy Atluri</h1>
 
 <p align="center">
-  <b>Machine Learning Engineer</b> — time-series forecasting, optimization, and reinforcement learning.<br>
+  <b>ML / Deep Learning Engineering</b> — time-series forecasting, optimization, and reinforcement learning.<br>
   Python-first, mathematically grounded. I build the model <i>and</i> the service around it.
 </p>
 
@@ -35,20 +35,22 @@ votes and weights behind it. Forecast intervals are measured rather than tuned �
 reported at 50.2% over 1,500 walk-forward calls, which is a coin flip, and the terminal says so.
 `TypeScript` · `Next.js` · `Supabase` · `lightweight-charts`
 
-**[Asset Price Prediction Platform](https://github.com/VenkataVinesh/Asset-Price-Prediction-Platform)** — LSTM vs ARIMA, head to head
+**[Asset Price Prediction Platform](https://github.com/VenkataVinesh/Asset-Price-Prediction-Platform)** — Sequence Models vs Classical Baselines
 Puts a deep sequence model and a classical baseline on the same series so the trade-off is
 visible rather than assumed. Index-aligned windowing to prevent leakage; scaler state persisted
-with the model so inference reproduces training-time normalization.
+with the model so inference reproduces training-time normalization. An async FastAPI service
+serves multi-step forecasts with confidence intervals.
 `Python` · `PyTorch` · `Statsmodels` · `FastAPI` · `React`
 
-**[Weather Time-Series Forecasting](https://github.com/VenkataVinesh/Weather-Time-Series-Forecasting)** — Sequence models on seasonal data
-Stacked 2-layer LSTM benchmarked against ARIMA/SARIMA, with trend/seasonality/residual
+**[Weather Time-Series Forecasting](https://github.com/VenkataVinesh/Weather-Time-Series-Forecasting)** — Deep Learning, Sequence Models
+Stacked two-layer LSTM (64 units, dropout 0.2) benchmarked against ARIMA/SARIMA, with trend/seasonality/residual
 decomposition. Runs on a reproducible synthetic series — no dataset download needed.
 `Python` · `PyTorch` · `Statsmodels` · `Matplotlib`
 
 **[Reinforcement Learning Lab](https://github.com/VenkataVinesh/Reinforcement-Learning-Lab)** — Tabular RL from scratch
 Q-Learning and SARSA with the temporal-difference updates written by hand in NumPy on a custom
-Gym-style GridWorld. Built to understand on-policy vs off-policy properly, not to call a library.
+Gym-style GridWorld. Epsilon-greedy exploration decays from 1.0 to 0.05. Built to understand on-policy vs off-policy
+properly, not to call a library.
 `Python` · `NumPy` · `Matplotlib`
 
 **[Portfolio Optimization](https://github.com/VenkataVinesh/Portfolio-Optimization-Dashboard)** — Markowitz mean-variance
@@ -69,7 +71,13 @@ frontier from the covariance structure of returns.
 
 ---
 
-<p align="center"><sub>
-Python · PyTorch · TensorFlow · Scikit-Learn · Statsmodels · NumPy/Pandas ·
-FastAPI · Next.js · TypeScript · PostgreSQL · Docker · Git
-</sub></p>
+### Skills
+
+- **Languages:** Python, C++, SQL, TypeScript, MATLAB
+- **ML / DL:** PyTorch, TensorFlow, Keras, Scikit-Learn, LSTM / GRU, Statsmodels
+- **Data:** NumPy, Pandas, Matplotlib, time-series
+- **Systems:** FastAPI, Next.js, React, Supabase, PostgreSQL, Docker, Git
+
+### Languages spoken
+
+English (fluent) · Telugu (native) · Hindi (conversational) · French (A1, in progress)
