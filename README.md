@@ -31,7 +31,7 @@ be traced back to real data, it doesn't ship.
 **[Veltrix](https://github.com/VenkataVinesh/Veltrix)** — Market Analytics and Forecasting Terminal
 An analytics terminal built so every call can be audited: each recommendation exposes the indicator
 votes and weights behind it. Forecast intervals are measured rather than tuned — GARCH(1,1) delivers
-94.75% coverage against a 95% nominal band, up from 91.7% under EWMA. Directional accuracy is
+94.75% coverage against a 95% nominal band, up from 91.67% under EWMA. Directional accuracy is
 reported at 50.2% over 1,500 walk-forward calls, which is a coin flip, and the terminal says so.
 `TypeScript` · `Next.js` · `Supabase` · `lightweight-charts`
 
