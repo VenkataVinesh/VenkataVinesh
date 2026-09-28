@@ -16,8 +16,9 @@
 ---
 
 CS undergrad at **Mahindra University** (CGPA 7.96), now at **École Centrale de Lyon** in Écully
-on the **Lyon Centrale Digital Lab 2026-2027** programme, looking for a six-month
-**ML / Deep Learning** internship in France from **February 2027**.
+on the **Lyon Centrale Digital Lab 2026-2027** programme. Seeking a compulsory 6-month
+**ML / Deep Learning** internship, **March to August 2027**. Open to Switzerland, Germany, the
+Netherlands, Sweden and France. University internship agreement provided.
 
 My work clusters around one theme: **modelling sequential, noisy real-world data** — forecasting
 it, optimizing decisions on top of it, and learning policies that act on it. I care about the
@@ -35,17 +36,23 @@ votes and weights behind it. Forecast intervals are measured rather than tuned �
 reported at 50.2% over 1,500 walk-forward calls, which is a coin flip, and the terminal says so.
 `TypeScript` · `Next.js` · `Supabase` · `lightweight-charts`
 
+**[TriageMate](https://github.com/DaPres/SwissAiWeeks_Team_8)** — Hackathon project, Swiss {ai} Weeks Zurich 2026
+A triage co-pilot for operational service desks, built for the Swiss Life challenge at the Swiss
+{ai} Weeks Zurich Hackathon. It screens an incoming ticket or email for PII and prompt injection,
+classifies and routes it, assigns a priority with a written reason, retrieves similar past cases,
+and drafts a response an analyst can approve, edit or reject.
+- Found the 20,000-ticket dataset was only 173 unique descriptions with effectively random priority labels: a trained classifier did no better than always guessing the majority class
+- Computed priority with an explicit ITIL urgency × impact matrix instead, and used the tickets as a retrieval library rather than training data
+- Used the LLM only where judgment was genuinely needed, keeping the pipeline testable
+- Built the classification/retrieval logic and the LLM prompting and pipeline
+`Python` · `FastAPI` · `React` · `TypeScript` · `Azure AI Foundry` · `SQLite` · `Docker` · `Azure Container Apps`
+
 **[Asset Price Prediction Platform](https://github.com/VenkataVinesh/Asset-Price-Prediction-Platform)** — Sequence Models vs Classical Baselines
 Puts a deep sequence model and a classical baseline on the same series so the trade-off is
 visible rather than assumed. Index-aligned windowing to prevent leakage; scaler state persisted
 with the model so inference reproduces training-time normalization. An async FastAPI service
 serves multi-step forecasts with confidence intervals.
 `Python` · `PyTorch` · `Statsmodels` · `FastAPI` · `React`
-
-**[Weather Time-Series Forecasting](https://github.com/VenkataVinesh/Weather-Time-Series-Forecasting)** — Deep Learning, Sequence Models
-Stacked two-layer LSTM (64 units, dropout 0.2) benchmarked against ARIMA/SARIMA, with trend/seasonality/residual
-decomposition. Runs on a reproducible synthetic series — no dataset download needed.
-`Python` · `PyTorch` · `Statsmodels` · `Matplotlib`
 
 **[Reinforcement Learning Lab](https://github.com/VenkataVinesh/Reinforcement-Learning-Lab)** — Tabular RL from scratch
 Q-Learning and SARSA with the temporal-difference updates written by hand in NumPy on a custom
@@ -58,23 +65,25 @@ Maximum-Sharpe weights via SciPy SLSQP under long-only constraints, tracing the 
 frontier from the covariance structure of returns.
 `Python` · `SciPy` · `NumPy` · `Matplotlib`
 
+**[Weather Time-Series Forecasting](https://github.com/VenkataVinesh/Weather-Time-Series-Forecasting)** — Deep Learning, Sequence Models
+Stacked two-layer LSTM (64 units, dropout 0.2) benchmarked against ARIMA/SARIMA, with trend/seasonality/residual
+decomposition. Runs on a reproducible synthetic series — no dataset download needed.
+`Python` · `PyTorch` · `Statsmodels` · `Matplotlib`
+
 ---
 
 ### Next up
 
-- **EU AI Act / GDPR RAG assistant** — retrieval over regulatory text, built around an evaluation
-  harness measuring hallucination rate and retrieval quality.
-- **Industrial visual defect detection** — anomaly detection treated as a production service, with
-  experiment tracking and drift monitoring.
-
-*Planned, not started. Repositories appear here when there is code in them.*
+In progress: an EU AI Act / GDPR RAG assistant built around an evaluation harness (retrieval
+quality, faithfulness, hallucination rate).
 
 ---
 
 ### Skills
 
 - **Languages:** Python, C++, SQL, TypeScript, MATLAB
-- **ML / DL:** PyTorch, TensorFlow, Keras, Scikit-Learn, LSTM / GRU, Statsmodels
+- **ML / DL:** PyTorch, Scikit-Learn, LSTM / GRU, Statsmodels
+- **Familiar with:** TensorFlow, Keras.
 - **Data:** NumPy, Pandas, Matplotlib, time-series
 - **Systems:** FastAPI, Next.js, React, Supabase, PostgreSQL, Docker, Git
 
