@@ -47,6 +47,12 @@ and drafts a response an analyst can approve, edit or reject.
 - Built the classification/retrieval logic and the LLM prompting and pipeline
 `Python` · `FastAPI` · `React` · `TypeScript` · `Azure AI Foundry` · `SQLite` · `Docker` · `Azure Container Apps`
 
+<p>
+  <img src="assets/triagemate/intake.jpg" width="32%" alt="TriageMate intake screen" />
+  <img src="assets/triagemate/priority.jpg" width="32%" alt="TriageMate priority result with ITIL matrix" />
+  <img src="assets/triagemate/draft-reply.jpg" width="32%" alt="TriageMate draft reply with citations" />
+</p>
+
 **[Asset Price Prediction Platform](https://github.com/VenkataVinesh/Asset-Price-Prediction-Platform)** — Sequence Models vs Classical Baselines
 Puts a deep sequence model and a classical baseline on the same series so the trade-off is
 visible rather than assumed. Index-aligned windowing to prevent leakage; scaler state persisted
