@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://venkatavinesh.github.io/PortFolio_Build_Gem/"><b>Portfolio</b></a> ·
   <a href="https://www.linkedin.com/in/venkat-vinesh">LinkedIn</a> ·
-  <a href="mailto:venkata-vinesh-kumar-reddy.atluri@etu.ec-lyon.fr">Email</a>
+  <a href="mailto:venkatvinesh46@gmail.com">Email</a>
 </p>
 
 I'm a CS student from **Mahindra University** (B.Tech, CGPA 7.96), in my final year at **École
